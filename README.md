@@ -27,28 +27,32 @@ A Python desktop app that automatically organizes messy folders — but instead 
 
 ## Example categorization
 
-Given files like:
-Electricity_Bill_January_2025.pdf
-Dentist_Receipt_March_2025.pdf
-Passport_Scan_Main_Page.jpg
-Vacation_GoPro_Bali_Day3.mp4
-Backup_Old_Phone_2019.zip
+**Given files like:**
+- `Electricity_Bill_January_2025.pdf`
+- `Dentist_Receipt_March_2025.pdf`
+- `Passport_Scan_Main_Page.jpg`
+- `Vacation_GoPro_Bali_Day3.mp4`
+- `Backup_Old_Phone_2019.zip`
 
-The app organizes them into:
+**The app organizes them into:**
 
+```
 Documents/
-Finance/
-Bills/
-Electricity_Bill_January_2025.pdf
-Receipts/
-Dentist_Receipt_March_2025.pdf
-Personal_ID/
-Passport_Scan_Main_Page.jpg
+├── Finance/
+│   ├── Bills/
+│   │   └── Electricity_Bill_January_2025.pdf
+│   └── Receipts/
+│       └── Dentist_Receipt_March_2025.pdf
+└── Personal_ID/
+    └── Passport_Scan_Main_Page.jpg
+
 Pictures/
-Travel/
-Vacation_GoPro_Bali_Day3.mp4
+└── Travel/
+    └── Vacation_GoPro_Bali_Day3.mp4
+
 Archives/
-Backup_Old_Phone_2019.zip
+└── Backup_Old_Phone_2019.zip
+```
 
 ## Project structure
 
